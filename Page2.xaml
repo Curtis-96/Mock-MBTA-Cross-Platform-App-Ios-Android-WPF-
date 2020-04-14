@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.Page2">
+    
+    <ContentPage.Content>
+        
+            <ScrollView>
+            <StackLayout BackgroundColor="Green">
+                <Label Text="Schedules"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="Large"/>
+                
+                <Button Text="Green Line: B-Eastbound" x:Name="b_east" BackgroundColor="Gray" Clicked="b_east_Clicked" FontSize="Small"></Button>
+            <Button Text="Green Line: B-Westbound" x:Name="b_west" BackgroundColor="Gray" Clicked="b_west_Clicked" FontSize="Small"></Button>
+            <Button Text="Green Line: C-Eastbound" x:Name="c_east" BackgroundColor="Gray" Clicked="c_east_Clicked" FontSize="Small"></Button>
+            <Button Text="Green Line: C-Westbound" x:Name="c_west" BackgroundColor="Gray" Clicked="c_west_Clicked" FontSize="Small"></Button>
+            <Button Text="Green Line: D-Eastbound" x:Name="d_east" BackgroundColor="Gray" Clicked="d_east_Clicked" FontSize="Small"></Button>
+            <Button Text="Green Line: D-Westbound" x:Name="d_west" BackgroundColor="Gray" Clicked="d_west_Clicked" FontSize="Small"></Button>
+            <Button Text="Green Line: E-Eastbound" x:Name="e_east" BackgroundColor="Gray" Clicked="e_east_Clicked" FontSize="Small"></Button>
+            <Button Text="Green Line: E-Eastbound" x:Name="e_west" BackgroundColor="Gray" Clicked="e_west_Clicked" FontSize="Small"></Button>
+            <Button Text="Red Line: Southbound" x:Name="red_south" BackgroundColor="Gray" Clicked="red_south_Clicked" FontSize="Small"></Button>
+            <Button Text="Red Line: Northbound" x:Name="red_north" BackgroundColor="Gray" Clicked="red_north_Clicked" FontSize="Small"></Button>
+            <Button Text="Blue Line: Eastbound" x:Name="blue_east" BackgroundColor="Gray" Clicked="blue_east_Clicked" FontSize="Small"></Button>
+            <Button Text="Blue Line: Westbound" x:Name="blue_west" BackgroundColor="Gray" Clicked="blue_west_Clicked" FontSize="Small"></Button>
+            <Button Text="Orange Line: Southbound" x:Name="orange_south" BackgroundColor="Gray" Clicked="orange_south_Clicked_1" FontSize="Small"></Button>
+            <Button Text="Orange Line: Northbound" x:Name="orange_north" BackgroundColor="Gray" Clicked="orange_north_Clicked_1" FontSize="Small"></Button>
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

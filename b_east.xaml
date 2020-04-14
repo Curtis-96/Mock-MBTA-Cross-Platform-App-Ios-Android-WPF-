@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.b_east">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Green" >
+            <Label Text="Boston College" TextColor="Black" FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" Padding="10"></Label>
+            <Label Text="Train1 Train 2  Train 3 Train 4" HorizontalOptions="Center" Margin="15"></Label>
+            <Grid Margin="10">
+                <Label Text="Boston College"></Label>
+            </Grid>
+            <Grid Margin="10">
+                <Label Text="Boston College"></Label>
+            </Grid>
+            <Grid Margin="10">
+                <Label Text="Boston College"></Label>
+            </Grid>
+            <Grid Margin="10">
+                <Label Text="Boston College"></Label>
+            </Grid>
+            <Grid Margin="10">
+                <Label Text="Boston College"></Label>
+            </Grid>
+            <Grid Margin="10">
+                <Label Text="Boston College"></Label>
+            </Grid>
+            <Grid Margin="10">
+                <Label Text="Boston College"></Label>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
